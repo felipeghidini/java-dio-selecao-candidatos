@@ -13,7 +13,7 @@ public class ProcessoSeletivo {
 		System.out.println("Imprimir a lista de candidatos informando o indice do elemento");
 		
 		for (int indice = 0; indice < candidatos.length; indice++) {
-			System.out.println("O candidato de nº " + (indice+1) + " é o " + candidatos[indice]);
+			System.out.println("O candidato de nº" + (indice+1) + "é o " + candidatos.length);
 		}
 		
 		System.out.println("Forma abreviada com forEach");
